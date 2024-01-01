@@ -1,0 +1,209 @@
+
+body{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.tb{
+    background-image: url(./top-banner.png);
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+.my-name{
+    color: #2CB2E9;
+}
+.my-name:hover{
+    color: tomato;
+    transition: .6s;
+}
+h1{
+    font-size: 50px;
+}
+.s1{
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.s2{
+    margin-top: 70px;
+    margin-left: 30px;
+}
+.s2-bg{
+    width: 500px;
+    height: 500px;
+}
+.description{
+   
+    text-align: justify;
+    margin-right: 60px;
+    padding-bottom: 10px;;
+    
+}
+.hire-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 400;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.hire-button:hover{
+    background-image: linear-gradient(tomato,orange);
+    transition: 2s;
+}
+
+/*-----section 1 end----*/
+/*-----section 2 start----*/
+
+.big-dream{
+    display: flex;
+    margin-bottom: 40px;
+    background-image: url(./dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.bd1{
+    margin-left: 40px;
+}
+.bd2{
+    margin-left: 70px;
+}
+.s3-image{
+    width: 500px;
+    height: 500px;
+}
+.bd2-h1{
+    color: #2CB2E9;
+    font-size: 50px;
+    margin-top: 80px;
+    
+}
+.bd2-h1:hover{
+    color: tomato;
+    transition: .6s;
+}
+.bd2-p{
+   
+    text-align: justify;
+    margin-right: 150px;
+    padding-bottom: 10px;;
+    
+}
+
+.bd-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 400;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.bd-button:hover{
+    background-image: linear-gradient(tomato,orange);
+    transition: 2s;
+}
+
+/*-----section 2 end----*/
+/*-----section 3 start----*/
+
+.experience{
+    margin-bottom: 150px;
+    background-image: url(./exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left 200px;
+
+}
+#ex1{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(255, 217, 0),rgb(255, 0, 0));
+    border-image-slice: 1;
+    padding-bottom: 50px;
+
+}
+#ex2{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(252, 143, 0),rgb(85, 255, 6));
+    border-image-slice: 1;
+    padding-bottom: 50px;
+
+}
+#exh1{
+    font-size: 50px;
+    margin-left: 40px;
+}
+.ex-h1{
+    font-size: 40px;
+
+}
+.ep-main{
+
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+}
+.ex-1{
+    width: 45%;
+    box-shadow: 0px 0px 20px 3px #acadadb4;
+    padding: 10px 20px;
+}
+.ex1-1h1{
+
+}
+.h3{
+    color: #FFA500;
+
+}
+.ex-p{
+    text-align: justify;
+    
+}
+.ex-2h1{
+
+}
+.ex-2{
+    width: 45%;
+    margin-left: 5%;
+    box-shadow: 0px 0px 20px 3px #acadadb4;
+    padding: 10px 20px;
+
+}
+/*-----section 3 end----*/
+
+.copyright{
+    text-align: center;
+    color: rgb(107, 107, 107) ;
+}
+
+
+
+/* *media section */
+@media screen and (max-width:576px){
+    
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
